@@ -1,0 +1,12 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "lib": ["esnext"],
+    "esModuleInterop": true
+  }
+}
